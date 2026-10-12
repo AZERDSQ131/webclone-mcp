@@ -1,0 +1,11 @@
+{
+  // Snippet OpenCode MCP — webclone local (SPEC webclone-mcp).
+  // Coller tel quel dans la config OpenCode (JSONC).
+  "mcp": {
+    "webclone": {
+      "type": "local",
+      "command": ["python3", "/home/jules/webclone-mcp/src/webclone_server.py"],
+      "enabled": true
+    }
+  }
+}
