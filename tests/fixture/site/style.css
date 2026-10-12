@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f4f7;
+  color: #1a1a1a;
+  width: 1280px;
+}
+.site-header {
+  background: #14325c;
+  color: #ffffff;
+  padding: 20px 32px;
+  display: block;
+  overflow: hidden;
+}
+.brand { font-size: 24px; font-weight: bold; float: left; }
+.main-nav { float: right; padding-top: 4px; }
+.main-nav a { color: #ffffff; margin-left: 20px; text-decoration: none; font-size: 16px; }
+.hero { padding: 40px 32px; }
+.hero h1 { font-size: 40px; margin: 0 0 12px 0; color: #14325c; }
+.subtitle { font-size: 18px; color: #444444; margin: 0 0 28px 0; }
+.cards { display: block; overflow: hidden; }
+.card {
+  float: left;
+  width: 370px;
+  margin-right: 24px;
+  background: #ffffff;
+  border: 2px solid #d4dbe4;
+  border-radius: 8px;
+  padding: 20px;
+}
+.card:last-child { margin-right: 0; }
+.card h2 { margin: 0 0 8px 0; font-size: 22px; color: #14325c; }
+.card p { margin: 0; font-size: 15px; line-height: 22px; color: #333333; }
+.notes { margin: 0 32px 32px 32px; background: #ffffff; border: 2px solid #d4dbe4; border-radius: 8px; padding: 16px 20px; }
+.notes summary { font-weight: bold; font-size: 16px; cursor: pointer; }
+.site-footer { background: #14325c; color: #ffffff; padding: 16px 32px; font-size: 14px; }
