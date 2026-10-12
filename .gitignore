@@ -1,0 +1,14 @@
+# Runtime outputs — reproduced per run, never committed
+clones/
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+
+# Editors / OS
+.DS_Store
+.vscode/
+*.swp
